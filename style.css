@@ -48,6 +48,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-bottom: 30px;
   }
   .random{
     display: flex;
@@ -65,4 +66,17 @@ body{
   }
   h1{
     font-size: 36px;
+  }
+
+  .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 250px;
+  }
+
+  .p2{
+    text-align: right;
   }
