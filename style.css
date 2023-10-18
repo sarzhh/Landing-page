@@ -75,8 +75,24 @@ body{
     align-items: center;
     background-color: #E5E7EB;
     height: 250px;
+    
   }
-
-  .p2{
-    text-align: right;
+  .fourth{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 750px;
+    border-radius: 5px;
+    color: white;
+  }
+  .last-button{
+    border: solid white 3px;
+    color: white;
   }
