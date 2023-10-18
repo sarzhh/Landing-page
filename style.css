@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .first{
@@ -38,4 +40,29 @@ body{
       border-radius: 10px;
       padding: 8px 20px;
       border: none;
+  }
+
+  .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .random{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    padding: 20px;
+    
+  }
+  .sub-random{
+    border: solid #708ebe 3px;
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    
+  }
+  h1{
+    font-size: 36px;
   }
